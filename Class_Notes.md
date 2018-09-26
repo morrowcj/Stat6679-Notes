@@ -159,10 +159,12 @@ tail -n +2 tb1.fasta | grep -E [^ACGT]
 
 - [ ]  makes checkable boxes as bullets
 
-# Lecture 6 2018-Sep-2018
+# Lecture 6 2018-Sep-24
 
 ## Git: All about tracking versions!
 
 **! Use DESCRIPTIVE Commit Messages!**
 
 For homework: **[Do this](http://cecileane.github.io/computingtools/pages/notes0929.html)**
+
+# Lecture 7 2018-Sep-26
