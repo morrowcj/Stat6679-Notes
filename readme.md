@@ -1,1 +1,1 @@
-#Read me File for Stat679 Notes
+#Readme File for Stat679 Notes
