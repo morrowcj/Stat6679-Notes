@@ -168,3 +168,17 @@ tail -n +2 tb1.fasta | grep -E [^ACGT]
 For homework: **[Do this](http://cecileane.github.io/computingtools/pages/notes0929.html)**
 
 # Lecture 7 2018-Sep-26
+
+NA
+
+# Lecture 8 2018-Oct-01
+
+`less -S` makes less print short lines
+
+`cut` uses a tab as the default separator
+
+**`sed`** is very powerful! - see Cecile's notes for usage.
+
+`column` is good for viewing tabular data
+
+# Lecture * 2018-Oct-03
