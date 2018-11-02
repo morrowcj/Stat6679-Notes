@@ -1,4 +1,4 @@
-# Lecture 1: 5-Sept-2018
+<!-- # Lecture 1: 5-Sept-2018 -->
 
 ## To do
 * install Rtools
@@ -181,4 +181,45 @@ NA
 
 `column` is good for viewing tabular data
 
-# Lecture * 2018-Oct-03
+# Lecture 9 2018-Oct-03
+
+NA
+
+# Lecture 10 2018-Oct-08
+
+git branches
+
+**also**, I really should add a git aware shell-prompt
+
+a bare git repository is a repo that ONLY contains a .git folder. git can
+recreate an entire directory with all its files with the .git folder only.
+
+# Lecture 11: 2018-Oct-10
+
+`awk`
+
+# Lecture 12: 2018-Oct-15
+
+## remote machines
+
+* connecting to remote machines: `ssh`, `scp`
+
+* `ssh`: secure shell
+
+```shell
+ssh [username]@[hostname]
+```
+
+* `scp`: secure copy - copy files from remote
+machine to local
+
+```
+scp -r [user]@[host]:[host-directory] [local directory]
+## i.e.
+scp [source] [destination]
+# local file can also be placed on a remote server.
+```
+
+## 29-Oct-2018
+
+* use `def` to define a function within python
