@@ -99,14 +99,14 @@ def test_drive():
 ## execute only if using as script (not import binomial.py)
 if __name__ == '__main__':
   
-    ## always execute doc test
+    ## execute doc test
     if args.test:
       import doctest
       print("testing the module...")
       doctest.testmod()
       print("done with tests")
     
-    ## tests  
+    ## debug mode
     if args.debug:
       print("Debug mode:")
       import sys # import sys for system info
@@ -114,6 +114,8 @@ if __name__ == '__main__':
       print("args = ", args) # arguments 
       test_drive() # run test function
     else:
+        
+      # Binomial Coefficient:  
       ## if n and k are present
       if args.n is not None and args.k is not None:
         ## --log functionality
